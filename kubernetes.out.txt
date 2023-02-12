@@ -1,5 +1,14 @@
+(.devops) voclabs:~/environment/Operationalize-a-Machine-Learning-Microservice-API (master) $ bash run_kubernetes.sh 
 Error from server (AlreadyExists): pods "udacity-devops-nd-ml-api-project" already exists
 NAME                               READY   STATUS    RESTARTS   AGE
-udacity-devops-nd-ml-api-project   1/1     Running   0          46s
+udacity-devops-nd-ml-api-project   1/1     Running   0          6m40s
 Unable to listen on port 8000: Listeners failed to create with the following errors: [unable to create listener: Error listen tcp4 127.0.0.1:8000: bind: address already in use unable to create listener: Error listen tcp6 [::1]:8000: bind: address already in use]
 error: unable to listen on any of the requested ports: [{8000 80}]
+
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
