@@ -1,0 +1,123 @@
+    1  ssh-keygen rsa
+    2  ssh-keygen -t rsa
+    3  nano /home/ec2-user/.ssh/id_rsa.pub.
+    4  cat /home/ec2-user/.ssh/id_rsa.pub.
+    5  cat /home/ec2-user/.ssh/id_rsa.pub
+    6  ls
+    7  git clone git@github.com:raezon/Operationalize-a-Machine-Learning-Microservice-API.git
+    8  cd Operationalize-a-Machine-Learning-Microservice-API/
+    9  python3 -m venv ~/.devops
+   10  source ~/.devops/bin/activate
+   11  ls
+   12  make install
+   13  make lint
+   14  make install
+   15  make lint
+   16  make install
+   17  make lint
+   18  wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+   19  sudo chmod +x minikube-linux-amd64
+   20  sudo install minikube
+   21  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+   22  curl -LO https://dl.k8s.io/release/v1.23.0/bin/linux/amd64/kubectl
+   23  sudo chmod +x ./kubctl
+   24  sudo chmod +x ./kubectl
+   25  sudo mv ./kubectl /usr/local/bin/kubectl
+   26  make lint
+   27  hadolint --help
+   28  hadolint Dockerfile
+   29  make lint
+   30  sudo apt install virtualbox
+   31  sudo yum install virtualbox
+   32  git status
+   33  git add Makefile 
+   34  git commit -m 'Update MakeFile'
+   35   git config --global user.name "Djebabla ammar"
+   36    git config --global user.email amardjebabla10@gmail.com
+   37  git commit --amend --reset-author
+   38  git status
+   39  git add Dockerfile
+   40  git commit -m 'Update Dockerfile'
+   41  bash run_docker.sh 
+   42  ls
+   43  cd Operationalize-a-Machine-Learning-Microservice-API/
+   44  make setup
+   45  source ~/.devops/bin/activate
+   46  bash make_prediction.sh 
+   47  git status
+   48  git add Dockerfile
+   49  git commit -m 'Enhance Dockerfile'
+   50  git status
+   51  git add run_docker.sh 
+   52  git commit -m 'Update run_docker.sh'
+   53  git status
+   54  bash make_prediction.sh 
+   55  cd Operationalize-a-Machine-Learning-Microservice-API/
+   56  git status
+   57  git add app.py
+   58  git commit -m 'Update app.py'
+   59  touch app.py
+   60  touch docker_out.txt
+   61  bash upload_docker.sh 
+   62  git status
+   63  git add  upload_docker.sh
+   64  git commit -m 'Update upload_docker.sh'
+   65  git status
+   66  git add docker_out.txt
+   67  git status
+   68  git commit -m 'Add docker_out.txt'
+   69  touch kubernetes.out.txt
+   70  minikube start
+   71  bash resize.sh
+   72  minikube start
+   73  bash run_kubernetes.sh 
+   74  git status
+   75  git add run_kubernetes.sh
+   76  git commit -m 'Update run_kubernetes.sh'
+   77  git add . kubernetes.out.txt 
+   78  git commi -m 'Add kubenetes.out.txt'
+   79  git commit -m 'Add kubenetes.out.txt'
+   80  git status
+   81  git reset --soft HEAD~1
+   82  git status
+   83  git stash
+   84  git stash pop
+   85  git status
+   86  git restore minikube-linux-amd64 
+   87  git status
+   88  git restore --staged minikube-linux-amd64 
+   89  git status
+   90  git commit -m 'Add resize and kubernetes.out.txt'
+   91  bash make_prediction.sh
+   92  git status
+   93  bash run_kubernetes.sh 
+   94  git status
+   95  git add kubernetes.out.txt 
+   96  git commit -m 'update kubenetes.out.txt'
+   97  bash make_prediction.sh 
+   98  git add kubernetes.out.txt 
+   99  git commit -m 'update kubenetes.out.txt'
+  100  git status
+  101  git add .circleci/config.yml
+  102  git commit -m 'update circleci'
+  103  git push origin
+  104  git status
+  105  git add README.md 
+  106  git commit -m 'Update readme.md'
+  107  git push origin
+  108  git status
+  109  git add .circleci/
+  110  git commit -m 'Update readme.md'
+  111  git push origin
+  112  make setup
+  113  git add .circleci/
+  114  git commit -m 'Update readme.md'
+  115  git push origin
+  116  history >cmds.txt
+  117  git status
+  118  touch cmds.txt
+  119  history >cmds.txt
+  120* 
+  121  cd Operationalize-a-Machine-Learning-Microservice-API/
+  122  touch cmds.txt
+  123  history >cmds.txt
